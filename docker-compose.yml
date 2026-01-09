@@ -3,7 +3,9 @@ version: '3'
 services:
     
     server:
-        build: .
+        image: ggogel/webvowl:1.1.7
+  #      build: .
         command: catalina.sh run
         ports:
             - 8080:8080
+            
